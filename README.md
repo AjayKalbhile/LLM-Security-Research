@@ -128,24 +128,3 @@ All findings mapped to OWASP LLM Top 10 framework and AVID
 taxonomy. Remediation recommendations developed for each
 vulnerability category based on industry best practices.
 
-## Methodology
-
-### Phase 1 — Manual Testing (Gandalf AI)
-Conducted progressive manual prompt injection testing across
-8 security levels on Lakera's Gandalf AI platform. Each level
-introduced additional defensive layers requiring increasingly
-sophisticated bypass techniques. All successful extractions
-documented with exact prompts used and defensive analysis.
-
-### Phase 2 — Automated Scanning (Garak)
-Deployed Garak v0.15.1 (NVIDIA) against GPT-2 via HuggingFace
-pipeline. Ran promptinject probe suite comprising 3,840 total
-attack variants across HijackHateHumans, HijackKillHumans,
-and HijackLongPrompt probes. Total scan time: 2402 seconds.
-All results logged to JSONL format and analyzed for attack
-success rates.
-
-### Phase 3 — Documentation & Mapping
-All findings mapped to OWASP LLM Top 10 framework and AVID
-taxonomy. Remediation recommendations developed for each
-vulnerability category based on industry best practices.
