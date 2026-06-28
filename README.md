@@ -100,3 +100,6 @@ content injection attempts succeeded against GPT-2.
 **Recommendation:** Safety fine-tuning (RLHF), output
 filtering, and input sanitization required before
 production deployment.
+
+## Scan Terminal Output
+![Garak Scan Results](garak-scans/garak-terminal-results.png)
