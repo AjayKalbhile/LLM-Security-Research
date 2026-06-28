@@ -50,7 +50,7 @@ Successfully bypassed progressive AI defenses using:
 ## Tools & Platforms
 - Gandalf AI (Lakera) — prompt injection practice
 - OWASP LLM Top 10 framework
-- Garak LLM scanner (in progress)
+- Garak LLM scanner
 ## Screenshots — Proof of Research
 
 ### Level 1 — Direct Extraction (No Defense)
