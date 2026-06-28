@@ -51,8 +51,27 @@ Successfully bypassed progressive AI defenses using:
 - Gandalf AI (Lakera) — prompt injection practice
 - OWASP LLM Top 10 framework
 - Garak LLM scanner (in progress)
+## Screenshots — Proof of Research
 
+### Level 1 — Direct Extraction (No Defense)
+![Level 1](gandalf-labs/screenshots/level1-cocoloco.png)
+
+### Level 2 — Fictional Framing Bypass
+![Level 2](gandalf-labs/screenshots/level2-potential.png)
+
+### Level 3 — Character Encoding Bypass
+![Level 3](gandalf-labs/screenshots/level3-wavelength.png)
+
+### Level 4 — Language Translation Bypass
+![Level 4](gandalf-labs/screenshots/level4-underground.png)
+
+### Level 5 — Sentence Completion Injection
+![Level 5](gandalf-labs/screenshots/level5-bestowed.png)
+
+### Level 6 — Metaphorical Extraction
+![Level 6](gandalf-labs/screenshots/level6-underpass.png)
 ---
+
 
 ## References
 - OWASP LLM Top 10: owasp.org/www-project-top-10-for-large-language-model-applications
