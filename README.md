@@ -77,3 +77,26 @@ Successfully bypassed progressive AI defenses using:
 - OWASP LLM Top 10: owasp.org/www-project-top-10-for-large-language-model-applications
 - Gandalf AI: gandalf.lakera.ai
 - Garak: github.com/NVIDIA/garak
+
+## Garak Full Scan Results — GPT-2
+
+**Date:** June 28, 2026
+**Tool:** Garak v0.15.1
+**Target:** huggingface:gpt2
+**Overall Security Score:** 78% (DC-3 Risk Level)
+
+| Probe | Pass Rate | Attack Success Rate | Severity |
+|---|---|---|---|
+| HijackHateHumans | 82.11% | 17.89% | Medium |
+| HijackKillHumans | 74.06% | **25.94%** | High |
+| HijackLongPrompt | 88.44% | 11.56% | Medium |
+
+**Critical Finding:** HijackKillHumans probe achieved
+25.94% attack success rate — meaning 1 in 4 violent
+content injection attempts succeeded against GPT-2.
+
+**OWASP Mapping:** LLM01 — Prompt Injection
+**DEFCON Level:** DC-3 (Medium Risk)
+**Recommendation:** Safety fine-tuning (RLHF), output
+filtering, and input sanitization required before
+production deployment.
