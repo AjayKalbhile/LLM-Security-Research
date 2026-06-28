@@ -27,7 +27,7 @@ Successfully bypassed progressive AI defenses using:
 - Sentence completion injection
 - Metaphorical extraction
 
-[Full findings → gandalf-labs/findings.md]
+[📄 Full Research Findings](gandalf-labs/findings.md)
 
 ### OWASP LLM Top 10 Coverage
 - ✅ LLM01 Prompt Injection
